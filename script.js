@@ -11,7 +11,7 @@ let photos = ["https://preview.redd.it/if-the-show-is-successful-what-would-be-g
 
 // 1. Push an image link of one of your favorite shows to the photos array.
 //  - To find the link, right-click an image and choose 'Copy Image Address'
-
+photos.push("https://thf.bing.com/th/id/OIP.Pq5XxKuGKVJ6Qcq87JtrGAHaDt?w=305&h=180&c=7&r=0&o=7&cb=thfc1falcon2&dpr=1.3&pid=1.7&rm=3");
 
 
 // HTML selectors
@@ -25,3 +25,8 @@ let show6 = document.querySelector(".show-6");
 
 show1.src = photos[0];
 // 2. Update the src for each show# variable - use the line above as a reference.
+show2.src = photos[1]
+show3.src = photos[2]
+show4.src = photos[3]
+show5.src = photos[4]
+show6.src = photos[5]
